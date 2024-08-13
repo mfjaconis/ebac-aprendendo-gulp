@@ -6,4 +6,5 @@
 ## Utilização do projeto:
  - Primeiro faça o clone do projeto em sua maquina
  - Após o clone utilize o comando NPM I, em letras minúsculas.
+ - Crie uma pasta Build e dentro dela as pastas: images, scripts e styles.
  - Para rodar o Gulp, dê o comando NPM RUN GULP, em letras minúsculas também.
