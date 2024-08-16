@@ -6,7 +6,6 @@ const imagemin = require("gulp-imagemin");
 
 compilaSass = () => {
 	return gulp
-		.src("./source/scripts/*.js")
 		.src("./source/styles/main.scss")
 		.pipe(sourcemaps.init())
 		.pipe(
@@ -15,7 +14,7 @@ compilaSass = () => {
 			}),
 		)
 		.pipe(sourcemaps.write("./maps"))
-		.pipe(gulp.dest(".build/styles"));
+		.pipe(gulp.dest("./build/styles"));
 };
 
 comprimeImagens = () => {
